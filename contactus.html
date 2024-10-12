@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/contactus.css" />
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="./de-laurel2.html">De-laurel</a></h1>
+  
+
+    </header>
+    <div class="background"></div>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name....."/>
+      <br>
+      <br>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="example@gmail.com"/>
+      <br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br><br>
+
+      <button type="submit">Send</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    
+
+    <h3 id="status-message"><h3>
+
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission
+
+          // Get form data
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
+
+          // Create mailto link
+          const mailtoLink = `mailto:bisoye63@gmail.com subject=Contact Form Submission&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+          // Try to open the user's email client with the mailto link
+          try {
+            window.location.href = mailtoLink;
+            document.getElementById("status-message").innerText =
+              "Email sent successfully!";
+            document.getElementById("status-message").style.color = "green";
+          } catch (error) {
+            document.getElementById("status-message").innerText =
+              "Failed to send email.";
+            document.getElementById("status-message").style.color = "red";
+          }
+        });
+    </script>
+  
+  </body>
+</html>

@@ -1,0 +1,1288 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url(./tams/greenbck.jpg); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  color: #000;
+  /* overflow: hidden; */
+}
+/* #myCarousel { */
+/* width: 100%; Set your desired width */
+/* height: 850px; Set your desired height */
+/* margin: auto; Center the carousel */
+/* overflow: hidden; Hide overflow if images are larger */
+/* } */
+/* .carousel-control-prev, */
+/* .carousel-control-next { */
+/* display: none; */
+/* } */
+#fi_img {
+  top: 2rem;
+  border-radius: 5rem;
+  height: 10rem;
+  width: 10rem;
+}
+video {
+  width: 100%;
+}
+.logo {
+  padding: 0rem 1rem;
+  top: 0;
+  /* padding-bottom: 8rem; */
+}
+#logo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  margin-bottom: 7rem;
+  /* float: left; */
+}
+.carousel-inner img {
+  width: 200%; /* Make images responsive to the carousel width */
+  height: 1000%; /* Make images cover the full height */
+  object-fit: contain; /* Maintain aspect ratio and cover the area */
+}
+
+#mailp {
+  text-align: center;
+  color: var(--green);
+}
+
+#mail {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: italic;
+}
+
+header a {
+  text-decoration: none;
+  text-align: #fff;
+}
+
+#facilities {
+  margin-top: 1rem;
+}
+#facilities {
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+}
+marquee {
+  padding-left: 2rem;
+}
+marquee img {
+  position: relative;
+  width: 30rem;
+  height: 20rem;
+  margin-left: 1.2rem;
+}
+:root {
+  --lightblue: #1090cb;
+  --green: #08d3bb;
+}
+#home {
+  color: var(--lightblue);
+}
+
+.title {
+  text-align: center;
+}
+.counters {
+  padding: 2em 3em;
+  background: var(--green);
+  color: #fff;
+  text-align: center;
+}
+.counters > div {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4em 2em;
+}
+.counter {
+  position: relative;
+}
+.counter h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.counter:not(:last-child)::before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  width: 2px;
+  height: 3em;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -1em;
+}
+
+#accordion h1 {
+  position: relative;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#pre-loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #21242d
+    url("https://cssauthor.com/wp-content/uploads/2018/06/Bouncy-Preloader.gif")
+    no-repeat center;
+  z-index: 999;
+}
+#pre-loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: rgb(12, 63, 83)
+    url("/webwiz/Animation\ -\ 1726867531367\ \(1\).gif") no-repeat center
+    center;
+}
+#banner {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+#green {
+  color: var(--green);
+  font-style: oblique;
+}
+
+#banner h3 {
+  max-width: 4rem;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+#banner img {
+  width: 100%;
+}
+
+hr {
+  width: 80%; /* Adjust width as needed */
+  margin: 3rem 3rem;
+  border: 1px solid var(--green); /* Customize border style */
+}
+.line {
+  width: 2px; /* Line thickness */
+  height: 100px; /* Line height */
+  color: #000;
+  /* background-color: black; Line color */
+}
+
+#mflex {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+#mflex article {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+#mflex article img {
+  width: 50%;
+  border-radius: 0.4rem;
+}
+#myr {
+  position: relative;
+  padding: 1rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+/* carousel  */
+.carousel-inner {
+  height: 35rem; /* Adjust this value to your preference */
+}
+#carouselExample button {
+  display: none;
+}
+.carousel-item img {
+  max-height: 35rem;
+  max-width: 100vw; /* Adjust this to match the max-height of .carousel-inner */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  width: 100%; /* Makes sure the image takes the full width */
+}
+/* sect-2 */
+#sect-2 {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+#sect-2 article {
+  padding-top: 2rem;
+}
+#sect-2 article p {
+  display: inline-block;
+  max-width: 18rem;
+}
+#sect-2 img {
+  width: 30rem;
+  border-radius: 0.8rem;
+}
+#craft_space {
+  height: 30rem;
+  /* object-fit: contain; */
+  width: 50rem;
+}
+/* 
+@keyframes flowingtext {
+  0% {
+    background-size: 0%;
+  }
+
+  100% {
+    background-size: 100%;
+  }
+}
+#flogo {
+  margin-left: 3.8rem;
+  font-size: 4rem;
+  color: transparent;
+  background: linear-gradient(to right, var(--green), white);
+  background-clip: text;
+  animation-name: flowingtext;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+} */
+
+#footer {
+  display: grid;
+  grid-template-columns: 20% 20%;
+  /* gap: 40rem; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+
+  margin-top: 2rem;
+  width: 98.7vw;
+  background-color: var(--green);
+  min-height: 20rem;
+  color: #fff;
+}
+
+#footer p {
+  max-width: 20rem;
+}
+/* Dummy image */
+#footer img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+}
+
+@media (max-width: 980px) {
+  #sect-2 {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sect-2 article {
+    padding-top: 2rem;
+  }
+  #sect-2 article p {
+    display: inline-block;
+    max-width: 16rem;
+  }
+  #sect-2 img {
+    width: 25rem;
+    border-radius: 0.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .counters {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+  .counter {
+    font-size: 1.5rem; /* Smaller font size */
+    padding: 15px; /* Adjust padding */
+  }
+}
+@media (max-width: 540px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  video {
+    width: 100%;
+    overflow: hidden;
+  }
+  body {
+    /* background-color: black; */
+    overflow: visible;
+  }
+  #banner {
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #green {
+    color: var(--green);
+    font-style: oblique;
+  }
+
+  #banner h3 {
+    max-width: 4rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  #banner img {
+    width: 100%;
+  }
+  hr {
+    width: 0%; /* Adjust width as needed */
+    margin: 0.6rem 0.6rem;
+    border: 1px solid var(--green); /* Customize border style */
+  }
+
+  #mflex {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #mflex article {
+    display: flex;
+    /* gap: 1.7rem; */
+    align-items: center;
+  }
+  #mflex article img {
+    width: 70%;
+    border-radius: 0.4rem;
+  }
+  #myr {
+    position: relative;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .counters {
+    width: 100vw;
+    grid-template-columns: 1fr; /* One column */
+  }
+  .counter {
+    font-size: 1rem; /* Even smaller font size */
+    padding: 10px; /* Further adjust padding */
+  }
+
+  #sect-2 {
+    display: grid;
+    grid-template-columns: 70%;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sect-2 article {
+    padding-top: 2rem;
+  }
+  #sect-2 article p {
+    /* margin-left: zrem; */
+    display: inline-block;
+    max-width: 18rem;
+  }
+  #sect-2 img {
+    width: 19rem;
+    border-radius: 0.8rem;
+  }
+  #craft_space {
+    /* height: 30rem; */
+    object-fit: cover;
+    /* height: 20rem; */
+    height: 10rem;
+    width: 19rem !important;
+  }
+
+  .counters {
+    padding: 2em 3em;
+    background: var(--green);
+    color: #fff;
+    text-align: center;
+  }
+  .counters > div {
+    max-width: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4em 2em;
+  }
+  .counter {
+    top: 1rem;
+    position: relative;
+  }
+  .counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .counter:not(:last-child)::before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 8rem;
+    height: 0.1em;
+
+    top: 120%;
+    transform: translateY(-50%);
+    right: 2em;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 80%;
+    /* gap: 40rem; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+
+    margin-top: 2rem;
+    width: 100vw;
+    background-color: var(--green);
+    min-height: 20rem;
+    color: #fff;
+  }
+
+  #footer p {
+    max-width: 20rem;
+  }
+  /* Dummy image */
+  #footer img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10rem;
+  }
+  #carouselExample {
+    top: 5rem;
+  }
+  #accordion {
+    margin-top: 1rem !important;
+  }
+  #accordion h1 {
+    /* position: relative; */
+    right: 30rem;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  nav {
+    width: 100vw;
+  }
+  .carousel-inner {
+    height: 35rem; /* Adjust this value to your preference */
+  }
+  #carouselExample button {
+    display: none;
+  }
+  .carousel-item img {
+    max-height: 35rem;
+    max-width: 100vw; /* Adjust this to match the max-height of .carousel-inner */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%; /* Makes sure the image takes the full width */
+  }
+}
+
+@media (max-width: 480px) {
+  video {
+    width: 160%;
+  }
+  /* body {
+    /* background-color: black; */
+  /* overflow: visible; */
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+  /* } */
+  #banner {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #green {
+    color: var(--green);
+    font-style: oblique;
+  }
+
+  #banner h3 {
+    max-width: 4rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  #banner img {
+    width: 100%;
+  }
+  hr {
+    width: 0%; /* Adjust width as needed */
+    margin: 0.6rem 0.6rem;
+    border: 1px solid var(--green); /* Customize border style */
+  }
+
+  #mflex {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #mflex article {
+    display: flex;
+    /* gap: 1.7rem; */
+    align-items: center;
+  }
+  #mflex article img {
+    width: 70%;
+    border-radius: 0.4rem;
+  }
+  #myr {
+    position: relative;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .counters {
+    grid-template-columns: 1fr; /* One column */
+  }
+  .counter {
+    font-size: 1rem; /* Even smaller font size */
+    padding: 10px; /* Further adjust padding */
+  }
+
+  #sect-2 {
+    display: grid;
+    grid-template-columns: 80%;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sect-2 article {
+    padding-top: 2rem;
+  }
+  #sect-2 article p {
+    display: inline-block;
+    max-width: 18rem;
+  }
+  #sect-2 img {
+    width: 15rem;
+    border-radius: 0.8rem;
+  }
+  #craft_space {
+    /* height: 30rem; */
+    /* object-fit: contain; */
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .counters {
+    padding: 2em 3em;
+    background: var(--green);
+    color: #fff;
+    text-align: center;
+  }
+  .counters > div {
+    max-width: 100vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4em 2em;
+  }
+  .counter {
+    position: relative;
+  }
+  .counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .counter:not(:last-child)::before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 8rem;
+    height: 0.1em;
+
+    top: 120%;
+    transform: translateY(-50%);
+    right: 2em;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 80%;
+    /* gap: 40rem; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+
+    margin-top: 2rem;
+    width: 98.7vw;
+    background-color: var(--green);
+    min-height: 20rem;
+    color: #fff;
+  }
+
+  #footer p {
+    max-width: 20rem;
+  }
+  /* Dummy image */
+  #footer img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10rem;
+  }
+
+  #accordion h1 {
+    /* position: relative; */
+    right: 35rem;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  nav {
+    width: 100vw;
+  }
+}
+@media (max-width: 415px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  video {
+    width: 120%;
+    overflow: hidden;
+  }
+  body {
+    /* background-color: black; */
+    overflow: visible;
+  }
+  #banner {
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #green {
+    color: var(--green);
+    font-style: oblique;
+  }
+
+  #banner h3 {
+    max-width: 4rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  #banner img {
+    width: 100%;
+  }
+  hr {
+    width: 0%; /* Adjust width as needed */
+    margin: 0.6rem 0.6rem;
+    border: 1px solid var(--green); /* Customize border style */
+  }
+
+  #mflex {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #mflex article {
+    display: flex;
+    /* gap: 1.7rem; */
+    align-items: center;
+  }
+  #mflex article img {
+    width: 70%;
+    border-radius: 0.4rem;
+  }
+  #myr {
+    position: relative;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .counters {
+    grid-template-columns: 1fr; /* One column */
+  }
+  .counter {
+    font-size: 1rem; /* Even smaller font size */
+    padding: 10px; /* Further adjust padding */
+  }
+
+  #sect-2 {
+    display: grid;
+    grid-template-columns: 80%;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sect-2 article {
+    padding-top: 2rem;
+  }
+  #sect-2 article p {
+    display: inline-block;
+    max-width: 18rem;
+  }
+  #sect-2 img {
+    width: 19rem;
+    border-radius: 0.8rem;
+  }
+  #craft_space {
+    /* height: 30rem; */
+    object-fit: cover;
+    /* height: 20rem; */
+    height: 10rem;
+    width: 19rem !important;
+  }
+
+  .counters {
+    padding: 2em 3em;
+    background: var(--green);
+    color: #fff;
+    text-align: center;
+  }
+  .counters > div {
+    max-width: 150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em 2em;
+  }
+  .counter {
+    top: 1rem;
+    position: relative;
+  }
+  .counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .counter:not(:last-child)::before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    left: 0.2rem;
+    width: 10rem;
+    height: 0.1em;
+
+    top: 120%;
+    transform: translateY(-50%);
+    right: 2em;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 80%;
+    /* gap: 40rem; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+
+    margin-top: 2rem;
+    width: 100vw;
+    background-color: var(--green);
+    min-height: 20rem;
+    color: #fff;
+  }
+
+  #footer p {
+    max-width: 20rem;
+  }
+  /* Dummy image */
+  #footer img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10rem;
+  }
+  #carouselExample {
+    top: 5rem;
+  }
+  #accordion {
+    margin-top: none;
+    margin-top: -10rem !important;
+  }
+  #accordion h1 {
+    /* position: relative; */
+    right: 33rem;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  nav {
+    width: 100vw;
+  }
+  .carousel-inner {
+    height: 35rem; /* Adjust this value to your preference */
+  }
+  #carouselExample button {
+    display: none;
+  }
+  .carousel-item img {
+    max-height: 35rem;
+    max-width: 100vw; /* Adjust this to match the max-height of .carousel-inner */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%; /* Makes sure the image takes the full width */
+  }
+}
+/* Small devices (phones, 480px and up) */
+@media (max-width: 380px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  video {
+    width: 157%;
+  }
+  body {
+    /* background-color: black; */
+    overflow: visible;
+  }
+  #banner {
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #green {
+    color: var(--green);
+    font-style: oblique;
+  }
+
+  #banner h3 {
+    max-width: 4rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  #banner img {
+    width: 100%;
+  }
+  hr {
+    width: 0%; /* Adjust width as needed */
+    margin: 0.6rem 0.6rem;
+    border: 1px solid var(--green); /* Customize border style */
+  }
+
+  #mflex {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #mflex article {
+    display: flex;
+    /* gap: 1.7rem; */
+    align-items: center;
+  }
+  #mflex article img {
+    width: 70%;
+    border-radius: 0.4rem;
+  }
+  #myr {
+    position: relative;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .counters {
+    grid-template-columns: 1fr; /* One column */
+  }
+  .counter {
+    font-size: 1rem; /* Even smaller font size */
+    padding: 10px; /* Further adjust padding */
+  }
+
+  #sect-2 {
+    display: grid;
+    grid-template-columns: 80%;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sect-2 article {
+    padding-top: 2rem;
+  }
+  #sect-2 article p {
+    display: inline-block;
+    max-width: 18rem;
+  }
+  #sect-2 img {
+    width: 15rem;
+    border-radius: 0.8rem;
+  }
+  #craft_space {
+    /* height: 30rem; */
+    /* object-fit: contain; */
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .counters {
+    padding: 2em 3em;
+    background: var(--green);
+    color: #fff;
+    text-align: center;
+  }
+  .counters > div {
+    max-width: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4em 2em;
+  }
+  .counter {
+    top: 1rem;
+    position: relative;
+  }
+  .counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .counter:not(:last-child)::before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 8rem;
+    height: 0.1em;
+
+    top: 120%;
+    transform: translateY(-50%);
+    right: 2em;
+    left: 2rem;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 80%;
+    /* gap: 40rem; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+
+    margin-top: 2rem;
+    width: 100vw;
+    background-color: var(--green);
+    min-height: 20rem;
+    color: #fff;
+  }
+
+  #footer p {
+    max-width: 20rem;
+  }
+  /* Dummy image */
+  #footer img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10rem;
+  }
+  #carouselExample {
+    top: 5rem;
+  }
+  #accordion {
+    margin-top: none;
+    margin-top: -10rem !important;
+  }
+  #accordion h1 {
+    /* position: relative; */
+    right: 33rem;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  nav {
+    width: 100vw;
+  }
+  .carousel-inner {
+    height: 35rem; /* Adjust this value to your preference */
+  }
+  #carouselExample button {
+    display: none;
+  }
+  .carousel-item img {
+    /* margin-top: -rem !important; */
+    max-height: 35rem;
+    max-width: 100vw; /* Adjust this to match the max-height of .carousel-inner */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%; /* Makes sure the image takes the full width */
+  }
+}
+
+@media (max-width: 361px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: visible;
+
+    /* z-index: -1; */
+    /* background-color: #000; */
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  #mail {
+    color: #000;
+    margin-top: -7px;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  video {
+    width: 100%;
+  }
+  #banner {
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #green {
+    color: var(--green);
+    font-style: oblique;
+  }
+
+  #banner h3 {
+    max-width: 4rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  /* #banner img {
+    width: 100%;
+  } */
+  hr {
+    width: 0%; /* Adjust width as needed */
+    margin: 0.6rem 0.6rem;
+    border: 1px solid var(--green); /* Customize border style */
+  }
+
+  #mflex {
+    display: grid;
+    grid-template-columns: 40%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #mflex article {
+    display: flex;
+    /* gap: 1.7rem; */
+    align-items: center;
+  }
+  #mflex article img {
+    width: 70%;
+    border-radius: 0.4rem;
+  }
+  #myr {
+    position: relative;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .counters {
+    grid-template-columns: 1fr; /* One column */
+  }
+  .counter {
+    font-size: 1rem; /* Even smaller font size */
+    padding: 10px; /* Further adjust padding */
+  }
+
+  #sect-2 {
+    display: grid;
+    grid-template-columns: 70%;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  #sect-2 article {
+    padding-top: 2rem;
+  }
+  #sect-2 article p {
+    display: inline-block;
+    max-width: 18rem;
+  }
+  #sect-2 img {
+    width: 15rem;
+    border-radius: 0.8rem;
+  }
+  #craft_space {
+    /* height: 30rem; */
+    /* object-fit: contain; */
+    height: 10rem;
+    width: 6rem;
+    margin-left: -2rem !important;
+  }
+
+  .counters {
+    /* overflow: hidden; */
+    padding: 2em 3em;
+    background: var(--green);
+    color: #fff;
+    text-align: center;
+  }
+  .counters > div {
+    /* background-color: ; */
+    height: 37rem;
+    max-width: 200px;
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em 0em;
+    font-size: 0.9rem;
+  }
+  .counter {
+    top: 0rem;
+    position: relative;
+  }
+  .counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .counter:not(:last-child)::before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 8rem;
+    height: 0.1em;
+    left: 1.9rem;
+    top: 120%;
+    transform: translateY(-50%);
+    right: 1em;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 80%;
+    /* gap: 40rem; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+
+    margin-top: 2rem;
+    width: 100vw;
+    background-color: var(--green);
+    min-height: 20rem;
+    color: #fff;
+  }
+
+  #footer p {
+    max-width: 15rem;
+  }
+  /* Dummy image */
+  #footer img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10rem;
+  }
+  #carouselExample {
+    top: 5rem;
+  }
+  #accordion {
+    margin-top: none;
+    margin-top: -10rem !important;
+  }
+  #accordion h1 {
+    /* position: relative; */
+    right: 33rem;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  #accordion {
+    max-width: 100vw;
+  }
+  nav {
+    width: 100vw;
+  }
+  .carousel-inner {
+    height: 35rem; /* Adjust this value to your preference */
+  }
+  #carouselExample button {
+    display: none;
+  }
+  .carousel-item img {
+    /* margin-top: -rem !important; */
+    max-height: 35rem;
+    max-width: 100vw; /* Adjust this to match the max-height of .carousel-inner */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    /* width: 100%; Makes sure the image takes the full width */
+  }
+}
+@media (max-width: 281px) {
+  .counters > div {
+    height: 40rem;
+  }
+  #accordion h1 {
+    /* margin-left: -1rem !important; */
+  }
+}
+
+/* #craft_space { */
+/* height: 20rem; */
+/* object-fit: contain; */
+/* width: 40rem; */
+/* } */
+/* } */

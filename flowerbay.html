@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/card.css" />
+    
+    <link
+      rel="icon"
+      href="data:image/png;base64,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"
+    />
+    <title>Flowerbay</title>
+  </head>
+  <body>
+    
+
+    </div>
+    <div class="first_nav">
+      <a href="tel:+234 813 746 4582"><i>080137464582</i> </a>
+      <a href="mailto:info@lasop.net"> <i>info@lasop.net</i></a>
+    </div>
+    <header>
+      <div id="branding">
+        <a href="flowerbay.html">
+          <h1><span class="red"><i>T</span>amilore</i></h1>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <a href="about.html"> <li>about</li></a>
+          <a href="gallery.html"> <li>gallery</li></a>
+          <a href="blog.html"> <li>blog</li></a>
+
+          <a href="contact.html"> <li>contact</li></a>
+          <a href="submit.html"> <li>submit</li></a>
+          <a href="#">
+            <button type="submit">buy a flower</button>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="herosection">
+        <div class="hero_desc">
+          <h1>flower bay</h1>
+          <p>lovely flowers at your disposal</p>
+          <button type="submit">Shop now</button>
+        </div>
+
+        <div class="hero img">
+          <img src="images/purepng1.png" alt="" />
+        </div>
+      </div>
+      <div class="crd_area">
+        <div class="crd_area_desc">
+          <h1>Our flower store</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            minima eligendi architecto dolor repellat veniam sint repellendus
+            enim iusto quidem.
+          </p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/white-brown-and-purple-petaled-flowers-9311621.png"
+              alt="flower"
+            />
+
+            <h4>Natural Petal Bloom</h4>
+            <p>&#8358;10 000</p>
+            <button type="submit">Add to cart</button>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/red-rose-flower-2079991.png"
+              alt=""
+            />
+            <h4>Red Rose</h4>
+            <p>&#8358;20 000</p>
+            <button type="submit">Add to cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/white-red-orange-and-brown-flowers-9311681.png"
+              alt=""
+            />
+            <h4>Morning Blossom Bouquet</h4>
+            <p>&#8358;20 000</p>
+            <button type="submit">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card_area2">
+        <div class="crd_area_desc2">
+          <h1>Our Flower Store</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus reiciendis facilis nobis cumque iure. Consectetur ad
+            doloribus assumenda et pariatur laboriosam aperiam ullam maxime, cor
+            rupti velit perspiciatis, tenetur quos blanditiis.
+          </p>
+        </div>
+
+        <div class="cards2">
+          <div class="card2">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/EnnyLennyVase.png"
+              alt=""
+            />
+            <h4>Enny Lenny Vase</h4>
+            <p>&#8358;6 500</p>
+            <button type="submit">Add to cart</button>
+          </div>
+          <div class="card2">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/EnnyLennyVase.png"
+              alt=""
+            />
+            <h4>Elizabeth Vine Glass</h4>
+            <p>&#8358;6 500</p>
+            <button type="submit">Add to cart</button>
+          </div>
+          <div class="card2">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/ClearEmerald.png"
+              alt=""
+            />
+            <h4>Clear Emerald Vase Set</h4>
+            <p>&#8358;10 000</p>
+            <button type="submit">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="comm">
+        <div class="main_com">
+          <h1>What people say about us</h1>
+
+          <br />
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non
+            libero, necessitatibus optio reprehenderit, amet officia incidunt
+            porro quis distinctio tempore praesentium, quos quas doloremque unde
+            illum laboriosam possimus adipisc i laudantium aliquam. Cupiditate
+            consectetur obcaecati nam tenetur, dolores in adipisci eaque qui.
+            Qui beatae eum repellat! Neque doloremque suscipit non?
+          </p>
+          <div id="main_comm_img">
+            <img
+              src="https://luminous-bienenstitch-c0551b.netlify.app/image/photo-of-woman-wearing-headscarf-18205751.png"
+              alt=""
+            />
+          </div>
+          <br />
+          <h5>peter parker</h5>
+        </div>
+      </div>
+     
+
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="ovr_div">
+          <div class="cls_desc">
+          <h1>Flowerbay</h1>
+          <br>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore laborum quidem assumenda, quod sequi consequatur delectus blanditiis laudantium ad porro possimus quia
+             esse, qui est doloribus eius aliquid! Dolor!</p>
+          </div>
+  
+          <div class="cls_desc2">
+            <h3>Contact us</h3>
+            <br>
+            <p>Lorem: ipsum dolor sit amet.</p>
+            <p>Lorem: ipsum dolor sit amet.</p>
+            <p>Lorem: ipsum dolor sit amet.</p>
+            
+          </div>
+          <div class="links">
+            <h3>links</h3>
+            <br>
+            <p>About us</p>
+            <p>Gallery</p>
+            <p>Blog</p>
+            <p>Shop here</p>
+            
+          </div>
+
+          <div class="lst_div">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+
+            </p>
+            <input type="text" id="txt">
+            <button type="submit" id="lst_button">sign up</button>
+            
+          </div>
+        </div>
+
+        </div>
+      
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+every html element is a box when you  apply a background
+
+box do have four side 1.e top,right,bottom lef.
+proprerty to beautify box
+
+
+!.padding=>this is used apply space within a box
+
+margin=> this applies space outside the box
+
+width=>this controls the dimension 
+height=> this is used to control the dimension on the vertrical axis
+border=>this apply design to the edges of an html element
+outline=. same as border but a layer above border
+box-sizing=> shrink box so as to control overall sizing of the box
+overflow=> control content inside a box from flowing out
+
+type of positioning:
+
+
+1. static => default to every element.(i cant move)
+relative moves in refeerance to where the element isabsolute=> this can  move to any point in the screen
+fixed  calculate like absolute and pin in to a point

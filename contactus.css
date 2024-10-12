@@ -1,0 +1,431 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+
+  background-image: url(./tams/imprv.jpg);
+  /* or contain */
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Sets the height of the element */
+
+  /* display: flex; */
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.background {
+  top: 4rem;
+  left: 24rem;
+
+  background-color: rgb(255, 255, 255, 0.5);
+
+  backdrop-filter: blur(10px);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  height: 30rem;
+  width: 20rem;
+  border-radius: 20px;
+  position: relative;
+}
+form {
+  top: 20rem;
+  left: 26rem;
+  position: absolute;
+  text-align: center;
+  max-width: 16rem;
+}
+
+label {
+  color: rgb(59, 63, 63);
+  font-size: 23px;
+}
+
+input {
+  text-transform: capitalize;
+
+  background-color: #000;
+  color: white;
+  height: 0rem;
+  width: 8rem;
+  font-size: 13px;
+  transition: 0.5s;
+  border-radius: 0.2rem;
+}
+
+input:hover {
+  height: 1.1rem;
+}
+button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  transition: transform 0.2s;
+  border-radius: 8px;
+  width: 5rem;
+  height: 2rem;
+  font-size: 14px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+button:active {
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(2px);
+}
+ul {
+  list-style-type: none;
+  padding: 0; /* Optional: Remove default padding */
+  margin: 0; /* Optional: Remove default margin */
+}
+h1 a {
+  text-decoration: none;
+  color: #000;
+}
+@media (max-width: 540px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    background-image: url(./tams/imprv.jpg);
+    /* or contain */
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height of the element */
+    max-width: 1000vw;
+
+    /* display: flex; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .background {
+    top: 4rem;
+    left: 4rem;
+
+    background-color: rgb(255, 255, 255, 0.5);
+
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    height: 30rem;
+    width: 17rem;
+    border-radius: 20px;
+    position: relative;
+  }
+  form {
+    top: 20rem;
+    left: 4rem;
+    position: absolute;
+    text-align: center;
+    max-width: 16rem;
+  }
+
+  label {
+    color: rgb(59, 63, 63);
+    font-size: 23px;
+  }
+
+  input {
+    text-transform: capitalize;
+
+    background-color: #000;
+    color: white;
+    height: 1rem;
+    width: 8rem;
+    font-size: 13px;
+    /* transition: 0.5s; */
+    border-radius: 0.2rem;
+  }
+
+  input:hover {
+    /* height: 0rem; */
+  }
+  button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    transition: transform 0.2s;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+    font-size: 14px;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+  }
+  button:active {
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+  }
+}
+@media (max-width: 420px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    background-image: url(./tams/imprv.jpg);
+    /* or contain */
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height of the element */
+    max-width: 1000vw;
+
+    /* display: flex; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .background {
+    top: 4rem;
+    left: 4rem;
+
+    background-color: rgb(255, 255, 255, 0.5);
+
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    height: 30rem;
+    width: 15rem;
+    border-radius: 20px;
+    position: relative;
+  }
+  form {
+    top: 20rem;
+    left: 4rem;
+    position: absolute;
+    text-align: center;
+    max-width: 16rem;
+  }
+
+  label {
+    color: rgb(59, 63, 63);
+    font-size: 23px;
+  }
+
+  input {
+    text-transform: capitalize;
+
+    background-color: #000;
+    color: white;
+    height: 1rem;
+    width: 8rem;
+    font-size: 13px;
+    /* transition: 0.5s; */
+    border-radius: 0.2rem;
+  }
+
+  input:hover {
+    /* height: 0rem; */
+  }
+  button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    transition: transform 0.2s;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+    font-size: 14px;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+  }
+  button:active {
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+  }
+}
+@media (max-width: 360px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    background-image: url(./tams/imprv.jpg);
+    /* or contain */
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height of the element */
+    max-width: 1000vw;
+
+    /* display: flex; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .background {
+    top: 4rem;
+    left: 4rem;
+
+    background-color: rgb(255, 255, 255, 0.5);
+
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    height: 30rem;
+    width: 15rem;
+    border-radius: 20px;
+    position: relative;
+  }
+  form {
+    top: 20rem;
+    left: 4rem;
+    position: absolute;
+    text-align: center;
+    max-width: 16rem;
+  }
+
+  label {
+    color: rgb(59, 63, 63);
+    font-size: 23px;
+  }
+
+  input {
+    text-transform: capitalize;
+
+    background-color: #000;
+    color: white;
+    height: 1rem;
+    width: 8rem;
+    font-size: 13px;
+    /* transition: 0.5s; */
+    border-radius: 0.2rem;
+  }
+
+  input:hover {
+    /* height: 0rem; */
+  }
+  button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    transition: transform 0.2s;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+    font-size: 14px;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+  }
+  button:active {
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+  }
+}
+@media (max-width: 330px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    background-image: url(./tams/imprv.jpg);
+    /* or contain */
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height of the element */
+    max-width: 1000vw;
+
+    /* display: flex; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .background {
+    top: 4rem;
+    left: 1rem;
+
+    background-color: rgb(255, 255, 255, 0.5);
+
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    height: 25rem;
+    width: 15rem;
+    border-radius: 20px;
+    position: relative;
+  }
+  form {
+    top: 20rem;
+    left: 1rem;
+    position: absolute;
+    text-align: center;
+    max-width: 16rem;
+  }
+
+  label {
+    color: rgb(59, 63, 63);
+    font-size: 23px;
+  }
+
+  input {
+    text-transform: capitalize;
+
+    background-color: #000;
+    color: white;
+    height: 1rem;
+    width: 8rem;
+    font-size: 13px;
+    /* transition: 0.5s; */
+    border-radius: 0.2rem;
+  }
+
+  input:hover {
+    /* height: 0rem; */
+  }
+  button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    transition: transform 0.2s;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+    font-size: 14px;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+  }
+  button:active {
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+  }
+}
