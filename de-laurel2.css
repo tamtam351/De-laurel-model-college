@@ -144,9 +144,7 @@ marquee img {
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: rgb(12, 63, 83)
-    url("/webwiz/Animation\ -\ 1726867531367\ \(1\).gif") no-repeat center
-    center;
+  background: rgb(12, 63, 83) url("/animation.gif") no-repeat center center;
 }
 #banner {
   display: grid;

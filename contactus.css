@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   text-align: center;
 
-  background-image: url(./tams/imprv.jpg);
+  background-image: url(/imprv.jpg);
   /* or contain */
   background-size: cover;
   object-fit: cover;
